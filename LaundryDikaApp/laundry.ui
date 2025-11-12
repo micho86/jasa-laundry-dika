@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LaundryMainWindow</class>
+ <widget class="QWidget" name="LaundryMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sistem Informasi Laundry Dika</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="titleLabel">
+     <property name="text">
+      <string>
+       <html><head/><body>
+       <p align="center"><span style=" font-size:18pt; font-weight:600;">Sistem Informasi Pelayanan Jasa Laundry Dika</span></p>
+       <p align="center"><span style=" font-size:10pt;">(Aplikasi CRUD & Laporan)</span></p>
+       </body></html>
+      </string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="btnLogin">
+       <property name="text">
+        <string>Login</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnExit">
+       <property name="text">
+        <string>Keluar</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QLabel" name="footerLabel">
+     <property name="text">
+      <string>
+       <html><head/><body>
+       <p align="center"><span style=" font-size:9pt;">© 2025 Laundry Dika | Developed for College Project</span></p>
+       </body></html>
+      </string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
